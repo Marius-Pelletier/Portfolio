@@ -1,0 +1,279 @@
+
+
+
+h1{
+    color: aliceblue;
+    
+   
+
+}   
+#bg1{
+    background-image: url('../img/vangogh_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+.custom-txt-statut{
+    font-size:  35px; 
+    margin-top: 100px;
+     
+    
+   
+          padding: 30px;
+          color: aliceblue;
+          border-radius: 10px;
+
+
+    
+
+  }
+#about .titre{
+    
+    background-color:rgba(226, 215, 139, 0.75);
+        
+        border-radius:  40px;
+        
+       
+        font-size: 50px;
+        margin-top: 50px;
+        padding: 20px 60px;
+}
+
+#about .infos{
+   
+ 
+        border-radius:  40px;
+        background-color: rgba(35, 67, 76, 0.75) ;
+        
+       
+        font-size: 19px;
+        margin-top: 50px;
+        padding: 50px;
+    
+}
+#about {
+     /* Fond semi-transparent */
+   
+    color: aliceblue;
+  }
+.navbar{
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+
+
+.navbar-brand{
+    color: aliceblue;
+}
+
+.navbar a{
+    color: aliceblue !important;
+}
+.navbar-toggler{
+    color: aliceblue;
+}
+.navbar-toggler-icon{
+    color: aliceblue;
+    filter: invert(100%);
+}
+
+
+
+
+
+
+
+
+
+#python-page h1{
+    color: aliceblue;
+    text-align: center;
+    
+    
+
+}
+
+
+
+.titre-projets{
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color:rgba(226, 215, 139, 0.75);
+    
+    border-radius: 60px;
+    color: #ffffff;
+    
+
+    padding : 20px;
+}
+.custom-card-python{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover
+}
+.custom-card-javascript{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.button-projet {
+    display: inline-block;
+    border-radius: 4px;
+    background-color:rgba(226, 215, 139, 1);
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button-projet span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button-projet span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button-projet:hover span {
+    padding-right: 25px;
+  }
+  
+  .button-projet:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+.screen-react{
+    width: 50%;
+    height:auto;
+    border-radius: 30px;
+    margin-bottom: 35px;
+    margin-top: 40px;
+
+}
+
+
+
+
+#projets-description{
+    background: rgb(68,74,5);
+    background: linear-gradient(0deg, rgba(68,74,5,0.8128501400560224) 0%, rgba(7,67,66,0.8996848739495799) 100%);
+}
+#projet-react h1{
+    color: rgba(226, 215, 139, 1);
+    font-size: 60px;
+    margin-top: 50px;
+    border-bottom:5px groove rgba(226, 215, 139, 1);
+    padding: 20px;
+  
+   
+    
+
+}
+#projet-react h2{
+    color: rgba(226, 215, 139, 1);
+    font-size: 45px;
+    margin-top: 150px;
+
+}
+#projet-python h1{
+    color: rgba(226, 215, 139, 1);
+    font-size: 60px;
+    margin-top: 50px;
+    border-bottom:5px groove rgba(226, 215, 139, 1);
+    padding: 20px;
+
+}
+#projet-python h2{
+    color: rgba(226, 215, 139, 1);
+    font-size: 45px;
+    margin-top: 150px;
+
+}
+
+
+#projet-react p{
+    margin-top: 100px;
+}
+
+.screen-abel{
+    width: 35%;
+    height:auto;
+    border-radius: 30px;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+.screen-it-guide{
+    width: 60%;
+    height:auto;
+    border-radius: 40px;
+    margin-bottom: 35px;
+    margin-top: 40px;
+}
+#projet-javascript h1{
+    color: rgba(226, 215, 139, 1);
+    font-size: 60px;
+    margin-top: 50px;
+    border-bottom:5px groove rgba(226, 215, 139, 1);
+    padding: 20px;
+}
+#projet-javascript h2{
+    color: rgba(226, 215, 139, 1);
+    font-size: 45px;
+    margin-top: 150px;
+
+}
+.screen-it-guide-map{
+    width: 57%;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+#projet-abel h1{
+    color: rgba(226, 215, 139, 1);
+    font-size: 60px;
+    margin-top: 50px;
+    border-bottom:5px groove rgba(226, 215, 139, 1);
+    padding: 20px;
+}
+
+#projet-abel h2{
+    color: rgba(226, 215, 139, 1);
+    font-size: 45px;
+    margin-top: 150px;
+}
+.presentation-python{
+    color: rgba(226, 215, 139, 1);
+    font-size: 30px;
+    margin-top: 75px;
+}
+
+
+ 
